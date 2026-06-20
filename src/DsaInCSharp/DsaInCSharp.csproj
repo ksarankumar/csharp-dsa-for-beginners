@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Build an executable console application (not a library). -->
+    <OutputType>Exe</OutputType>
+
+    <!-- Target framework. .NET 10 is installed on this machine. -->
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- Enable the modern, less-cluttered C# file style.
+         (We still write an explicit Main method so beginners can see the entry point.) -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Turn on nullable reference type warnings: a great habit for interview-quality code. -->
+    <Nullable>enable</Nullable>
+
+    <!-- Friendly assembly/root namespace. -->
+    <RootNamespace>DsaInCSharp</RootNamespace>
+    <AssemblyName>DsaInCSharp</AssemblyName>
+  </PropertyGroup>
+
+</Project>
